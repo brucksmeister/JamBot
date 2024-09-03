@@ -8,9 +8,9 @@ setup(
         'numpy',
         'pretty_midi',
         'mido',
-        'tensorflow-gpu',
+        'tensorflow',
         'keras',
-        'matplotlib'
+        'matplotlib',
         'np_utils',
         'h5py',
         'progressbar2'

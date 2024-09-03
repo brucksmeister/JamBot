@@ -3,11 +3,7 @@ from settings import *
 from keras.models import Sequential
 from keras.layers.recurrent import LSTM
 from keras.layers import Dense, Activation
-from keras.layers.embeddings import Embedding
 from keras.optimizers import RMSprop, Adam
-# from keras.utils import to_categorical
-from keras.utils import np_utils
-from keras.layers.wrappers import Bidirectional
 from random import shuffle
 import progressbar
 import matplotlib
@@ -20,9 +16,6 @@ import _pickle as pickle
 import data_class
 import chord_model
 
-
-import tensorflow as tf
-from keras.backend.tensorflow_backend import set_session
 
 # Uncomment next block if you only want to use a fraction of the GPU memory:
 

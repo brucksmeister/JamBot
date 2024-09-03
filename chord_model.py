@@ -1,9 +1,7 @@
-from settings import *
-from keras.models import load_model
+
 import keras
 import numpy as np
 from numpy import array
-import _pickle as pickle
 from keras import backend as K
 
 from data_processing import get_chord_dict
