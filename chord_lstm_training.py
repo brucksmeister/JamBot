@@ -6,7 +6,7 @@ from keras.layers import Dense, Activation
 from keras.layers import Embedding
 from keras.optimizers import RMSprop, Adam
 import keras.utils
-from keras.utils import np_utils
+import np_utils
 from keras.layers.wrappers import Bidirectional
 from random import shuffle
 import progressbar
