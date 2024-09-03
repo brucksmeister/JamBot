@@ -8,9 +8,12 @@ setup(
         'numpy',
         'pretty_midi',
         'mido',
-        'tensorflow',
+        'tensorflow-gpu',
         'keras',
-        'matplotlib',
+        'matplotlib'
+        'np_utils',
+        'h5py',
+        'progressbar2'
     ],
     author='Brucksmeister',
     author_email='',
